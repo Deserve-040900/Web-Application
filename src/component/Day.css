@@ -1,0 +1,9 @@
+.box-day {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+.day-item {
+    text-align: center;
+    font-size: small;
+}

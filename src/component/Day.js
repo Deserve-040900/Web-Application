@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Day({ day}) {
+export default function Day({ day }) {
   return (
-    <div className='border border-gray-200 flex flex-col'>
+    <div className='box-day'>
         <header>
-            <p className='text-sm p-1 text-center my-1'>
+            <p className='day-item'>
                 {day.format('DD')}
             </p>
         </header>        
